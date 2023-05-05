@@ -1,8 +1,8 @@
 
-# TELEGRAM BOT THAT POSTS YOUTUBE VIDEOS
+### TELEGRAM BOT POSTS YOUTUBE VIDEOS
 
 __Description:__  
-This Telegram bot posts links from a list to a Telegram channel. You can trigger the script manually, or with a cron job. 
+This Telegram bot posts urls from a list to a Telegram channel. You can trigger the script manually, or with a cron job. 
 
 Repo also includes two YouTube-related scripts; one for harvesting links of a particular channel "get_youtube_links_per_channel.py", the other is a test script "youtube_checker.py" that makes sure all your YouTube links are valid, public videos.
 
@@ -11,13 +11,13 @@ Repo also includes two YouTube-related scripts; one for harvesting links of a pa
 ##### Step One:
 Create a config.py with these credentials:
 
-Get your bot's token from the telegram bot father @botfather
+Get your bot's token from the telegram bot father @botfather  
 TOKEN = 'YOUR TOKEN HERE'
 
-Get the channel id that you'd like to add your bot to - a long sequence of digits, sometimes negative. Try forwarding a message from your channel to @JsonDumpBot to reveal its channel id
+Get the channel id that you'd like to add your bot to - a long sequence of digits, sometimes negative. Try forwarding a message from your channel to @JsonDumpBot to reveal its channel id  
 CHANNEL_NAME = 'YOUR CHANNEL ID HERE'
 
-Your YouTube API key
+Your YouTube API key  
 DEVELOPER_KEY = 'YOUR KEY HERE'
 
 ---
