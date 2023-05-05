@@ -14,7 +14,7 @@ Clone this repository. Create a config.py in the same directory with these three
 Get your bot's token from the telegram bot father @botfather  
 TOKEN = 'YOUR TOKEN HERE'
 
-Get the channel or group id to which you'd like to add your bot. The ID is a long sequence of digits, sometimes negative. Try forwarding a message from your channel to @JsonDumpBot on telegram to reveal the channel's ID. 
+Get the channel or group id to which you'd like to add your bot. The ID is a long sequence of digits, sometimes negative. Try forwarding a message from your channel to @JsonDumpBot on telegram to reveal the channel's ID.  
 CHANNEL_NAME = 'YOUR CHANNEL ID HERE'
 
 Optional, for your YouTube API key, if you need to create a list of links
@@ -31,6 +31,6 @@ If necessary, run the YouTube-related scripts, as explained above, or create, fi
 
 ##### Step Three:
 Run the script: 'python [bot.py](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/bot.py)'  
-Telegram expands YouTube links, creating a card for each YouTube video, including a play-in-Telegram preview, the video's title & description, and the original link, which, when clicked, will launch the YouTube app (on iOS).
+Telegram expands YouTube links, creating a card for each video, including a play-in-Telegram preview, the video's title & description, and the original link, which, when clicked, launches the YouTube app (on iOS).
    
 Optional: set-up a cron job to run bot.py on a schedule
