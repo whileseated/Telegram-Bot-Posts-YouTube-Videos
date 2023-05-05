@@ -6,6 +6,7 @@ import logging
 
 def post_link(bot: Bot) -> None:
     logging.debug('post_link function called')
+# if using with a cron job, make sure to use the absolute path to the video queue file
     with open('videos_to_post.txt', 'r+') as f:
         links = f.readlines()
         if links:
@@ -15,6 +16,7 @@ def post_link(bot: Bot) -> None:
             f.writelines(links)
             f.truncate()
 
+# if using with a cron job, make sure to use the absolute path to the video posted file
             with open('videos_posted.txt', 'a+') as f:
                 f.write(link_to_post)
 
