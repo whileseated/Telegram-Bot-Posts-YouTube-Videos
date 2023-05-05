@@ -1,7 +1,7 @@
 
 # TELEGRAM BOT THAT POSTS YOUTUBE VIDEOS
 
-##Description:##
+__Description:__  
 This Telegram bot posts links from a list to a Telegram channel. You can trigger the script manually, or with a cron job. 
 
 Repo also includes two YouTube-related scripts; one for harvesting links of a particular channel "get_youtube_links_per_channel.py", the other is a test script "youtube_checker.py" that makes sure all your YouTube links are valid, public videos.
