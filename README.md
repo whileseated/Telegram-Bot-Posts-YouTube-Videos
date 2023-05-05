@@ -17,7 +17,7 @@ TOKEN = 'YOUR TOKEN HERE'
 Get the channel or group id to which you'd like to add your bot. The ID is a long sequence of digits, sometimes negative. Try forwarding a message from your channel to @JsonDumpBot on telegram to reveal the channel's ID.  
 CHANNEL_NAME = 'YOUR CHANNEL ID HERE'
 
-Optional, for your YouTube API key, if you need to create a list of links
+Optional, for your YouTube API key, if you need to create a list of links.  
 DEVELOPER_KEY = 'YOUR KEY HERE'
 
 ---
