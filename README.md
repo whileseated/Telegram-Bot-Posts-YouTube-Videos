@@ -9,7 +9,7 @@ Repo also includes two YouTube-related scripts; one for harvesting links of a pa
 ---
 
 ##### Step One:
-Clone this repository. Create a config.py in the same directory with these three credentials:  
+Clone this repository. Create a `config.py` in the same directory with these three credentials:  
 
 Get your bot's token from [@botfather](https://t.me/botfather)  
 TOKEN = 'YOUR TOKEN HERE'
@@ -25,16 +25,16 @@ DEVELOPER_KEY = 'YOUR KEY HERE'
 ##### Step Two:
 After adding your bot to a channel/group, go into that channel/group and make sure the bot has fine-grained admin rights. You can access these from the channel itself, by clicking the bot's username in the list of administrators. I've seen errors when admin rights haven't been __fully__ granted.
 
-If necessary, run the YouTube-related scripts, as explained above, or create, find or scrape a list of YouTube links, a la [videos_to_post.txt](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/videos_to_post.txt). Links should be one-per line, as in the example.
+If necessary, run the YouTube-related scripts, as explained above, or create, find or scrape a list of YouTube links, a la [videos_to_post.txt](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/videos_to_post.txt). Links should be one link per line, as in the example.
 
 ---
 
 ##### Step Three:
-Run the script: 'python [bot.py](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/bot.py)'  
+Run the script: `python [bot.py](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/bot.py)`  
 
-Telegram expands YouTube links, creating a card for each video (see example.jpg), including a play-in-Telegram preview, the video's title & description, and the original link, which, when clicked, launches the YouTube app (on iOS).
+Telegram expands YouTube links, creating a card for each video (see [example.jpg](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/example.jpg)), including a play-in-Telegram preview, the video's title & description, and the original link, which, when clicked, launches the YouTube app (on iOS).
    
-Optional: set-up a cron job to run bot.py on a schedule.  
+Optional: set-up a cron job to run `bot.py` on a schedule.  
 
 ---
 
