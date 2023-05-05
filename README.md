@@ -4,12 +4,12 @@
 __Description:__  
 This Telegram bot posts urls from a list to a Telegram channel. You can trigger the script manually, or with a cron job. 
 
-Repo also includes two YouTube-related scripts; one for harvesting links of a particular channel "get_youtube_links_per_channel.py", the other is a test script "youtube_checker.py" that makes sure all your YouTube links are valid, public videos.
+Repo also includes two YouTube-related scripts; one for harvesting links of a particular channel [get_youtube_links_per_channel.py](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/get_youtube_links_per_channel.py), the other is a test script [youtube_checker.py](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/youtube_checker.py) that makes sure all your YouTube links are valid, public videos.
 
 ---
 
 ##### Step One:
-Create a config.py with these credentials:
+Clone this repository. Create a config.py in the same directory with these credentials:  
 
 Get your bot's token from the telegram bot father @botfather  
 TOKEN = 'YOUR TOKEN HERE'
@@ -30,9 +30,9 @@ Create, find or scrape a list of YouTube links, a la "videos_to_post.txt". Links
 ---
 
 ##### Step Three:
-Run the script: 'python bot.py'
+Run the script: 'python [bot.py](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/bot.py)'
 
 ---
 
 ##### Optional:
-Set-up a cron job to run bot.py on a schedule. 
+Set-up a cron job to run [bot.py](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/bot.py) on a schedule. 
