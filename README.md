@@ -39,5 +39,5 @@ Optional: set-up a cron job to run bot.py on a schedule.
 ---
 
 #### Troubleshooting:
-I've had some issues with two libraries for Telegram. There's (pip install telegram) and (pip install python-telegram-bot). Went through a bunch of installs and de-installs and ultimately had the most success when deinstalling both, and then installing an earlier version of python-telegram-bot: (pip install python-telegram-bot==13.7)
+I've had some issues with two libraries for Telegram. There's `pip install telegram` and `pip install python-telegram-bot`. Went through a bunch of installs and de-installs and ultimately had the most success when deinstalling both, and then installing an earlier version of python-telegram-bot: `pip install python-telegram-bot==13.7`
 
