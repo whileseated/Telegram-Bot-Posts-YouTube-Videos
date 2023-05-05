@@ -9,7 +9,7 @@ youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=DEVELOPER_KEY)
 
 # Read the list of video URLs from a text file
-with open('links_to_post.txt') as f:
+with open('videos_to_post.txt') as f:
     urls = f.read().splitlines()
 
 # Check each video for availability
