@@ -11,10 +11,10 @@ Repo also includes two YouTube-related scripts; one for harvesting links of a pa
 ##### Step One:
 Clone this repository. Create a config.py in the same directory with these three credentials:  
 
-Get your bot's token from the telegram bot father [@botfather](https://t.me/botfather)  
+Get your bot's token from [@botfather](https://t.me/botfather)  
 TOKEN = 'YOUR TOKEN HERE'
 
-Get the channel or group id to which you'd like to add your bot. The ID is a long sequence of digits, sometimes negative. Try forwarding a message from your channel to [@JsonDumpBot](https://t.me/JsonDumpBot) on telegram to reveal the channel's ID.  
+Get the channel or group id to which you'd like to add your bot. The ID is a long sequence of digits, sometimes negative. Try forwarding a message from your channel to [@JsonDumpBot](https://t.me/JsonDumpBot) to reveal the channel's ID.  
 CHANNEL_NAME = 'YOUR CHANNEL ID HERE'
 
 Optional, for your YouTube API key, if you need to create a list of links.  
