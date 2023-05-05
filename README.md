@@ -35,3 +35,9 @@ Run the script: 'python [bot.py](https://github.com/whileseated/telegram-bot-pos
 Telegram expands YouTube links, creating a card for each video (see example.jpg), including a play-in-Telegram preview, the video's title & description, and the original link, which, when clicked, launches the YouTube app (on iOS).
    
 Optional: set-up a cron job to run bot.py on a schedule.  
+
+---
+
+#### Troubleshooting:
+I've had some issues with two libraries for Telegram. There's 'pip install telegram' and 'pip install python-telegram-bot'. Went through a bunch of installs and de-installs and ultimately had the most success when deinstalling both, and then running 'pip install python-telegram-bot==13.7'
+
