@@ -9,7 +9,7 @@ Repo also includes two YouTube-related scripts; one for harvesting links of a pa
 ---
 
 ##### Step One:
-Clone this repository. Create a `config.py` in the same directory with these three credentials:  
+Clone this repository. Create `config.py` in the same directory with these three credentials:  
 
 Get your bot's token from [@botfather](https://t.me/botfather)  
 TOKEN = 'YOUR TOKEN HERE'
@@ -30,7 +30,7 @@ If necessary, run the YouTube-related scripts, as explained above, or create, fi
 ---
 
 ##### Step Three:
-Run the script: `python [bot.py](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/bot.py)`  
+Run the script: __python [bot.py](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/bot.py)__  
 
 Telegram expands YouTube links, creating a card for each video (see [example.jpg](https://github.com/whileseated/telegram-bot-posts-youtube-videos/blob/master/example.jpg)), including a play-in-Telegram preview, the video's title & description, and the original link, which, when clicked, launches the YouTube app (on iOS).
    
